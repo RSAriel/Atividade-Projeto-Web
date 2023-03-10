@@ -88,19 +88,34 @@ nav{
 
 .body2 {
     background:#a15f99 ;
+    padding-bottom: 3%;
 }
 .body2 h1{
     text-align: center;
     font-size: 3em;
     padding:2% 0 2% 0;
 }
+.grid-jogos{
+    display: flex;
+}
 .secoes {
     /* ajeitar para que o texto fique embaixo da imagem*/
     width: 20%;
     height: 40%;
+    text-align: center;
+
 }
-/*Deixar o modelo pronto apenas para adicionar os jogos depois*/
- .grid-jogos img {
+.secoes h2{
+    padding-bottom: 2%;
+}
+
+.secoes img {
+    border:2px #146a92;
+    border-style:dashed;
     width:320px;
     height: 384px;
- }
+}
+
+.secoes p {
+    padding: 1% 8% 0 8% ;
+}
